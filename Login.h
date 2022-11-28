@@ -27,7 +27,7 @@ private:
     Ui::Login *ui;
     CBejeweledDlg *BejeweledDlg;
     CRegist *Regist;
-    CRankLogic CRank;
+    CRankLogic CRank;//this is a test by Xu
 };
 
 #endif // LOGIN_H
