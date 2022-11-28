@@ -12,7 +12,7 @@ class Login;
 
 class Login : public QWidget
 {
-    Q_OBJECT
+    Q_OBJECT//this is a test at 23.08
 
 public:
     explicit Login(QWidget *parent = nullptr);
