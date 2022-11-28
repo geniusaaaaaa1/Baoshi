@@ -21,7 +21,7 @@ public:             //test3
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_pushButton_2_clicked();//0.08
 
 private:
     Ui::Login *ui;
