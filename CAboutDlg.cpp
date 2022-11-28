@@ -12,3 +12,4 @@ CAboutDlg::~CAboutDlg()
 {
     delete ui;
 }
+//测试使用
