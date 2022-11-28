@@ -4,7 +4,7 @@
 #include <QWidget>
 
 namespace Ui {
-class CAboutDlg;
+class CAboutDlg;//test by liu
 }
 
 class CAboutDlg : public QWidget
