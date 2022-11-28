@@ -12,9 +12,9 @@ class Login;
 
 class Login : public QWidget
 {
-    Q_OBJECT//this is a test at 23.08
+    Q_OBJECT         //this is a test at 23.08
 
-public:
+public:             //test3
     explicit Login(QWidget *parent = nullptr);
     ~Login();//test 23.49
 
