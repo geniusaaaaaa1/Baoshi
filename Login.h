@@ -16,7 +16,7 @@ class Login : public QWidget
 
 public:
     explicit Login(QWidget *parent = nullptr);
-    ~Login();
+    ~Login();//test 23.49
 
 private slots:
     void on_pushButton_clicked();
