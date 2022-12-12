@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;方正粗黑宋简体&quot;;</string>
+  </property>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
@@ -26,9 +29,9 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>230</x>
      <y>170</y>
-     <width>51</width>
+     <width>81</width>
      <height>51</height>
     </rect>
    </property>
@@ -47,7 +50,7 @@ background:transparent;</string>
     <rect>
      <x>150</x>
      <y>170</y>
-     <width>51</width>
+     <width>71</width>
      <height>51</height>
     </rect>
    </property>
@@ -64,10 +67,10 @@ background:transparent;</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>80</y>
+     <x>150</x>
+     <y>60</y>
      <width>131</width>
-     <height>16</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -87,10 +90,10 @@ background:transparent;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>80</x>
      <y>110</y>
      <width>54</width>
-     <height>12</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
@@ -100,10 +103,10 @@ background:transparent;</string>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>80</x>
      <y>150</y>
      <width>54</width>
-     <height>12</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">

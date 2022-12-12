@@ -14,6 +14,10 @@ CRankDlg::CRankDlg(QWidget *parent) :
     ui->tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->tableWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
     crank = CRankLogic::getInstance();
+    QPalette palette;
+    QPixmap pixmap("..\\BSMZproject\\sucai\\排行榜.jpg");
+    palette.setBrush(QPalette::Window, QBrush(pixmap));
+    this->setPalette(palette);
     time=new int[10];
     score=new int[10];
     name = new QString[10];

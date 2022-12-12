@@ -8,6 +8,10 @@ CRegist::CRegist(QWidget *parent) :
 {
     ui->setupUi(this);
     CRank = CRankLogic::getInstance();
+    QPalette palette;
+    QPixmap pixmap("..\\BSMZproject\\sucai\\background.bmp");
+    palette.setBrush(QPalette::Window, QBrush(pixmap));
+    this->setPalette(palette);
     ui->lineEdit_2->setEchoMode(QLineEdit::Password);
     ui->lineEdit_3->setEchoMode(QLineEdit::Password);
 }

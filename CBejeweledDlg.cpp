@@ -94,3 +94,8 @@ void CBejeweledDlg::on_pushButton_2_clicked()
     connect(GameDlg2,SIGNAL(openzhucaidansignal()),this,SLOT(open()));
     this->hide();
 }
+
+void CBejeweledDlg::on_pushButton_shezhi_clicked()//设置按钮时
+{
+
+}

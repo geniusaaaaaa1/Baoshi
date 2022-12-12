@@ -28,7 +28,7 @@ void Login::on_pushButton_clicked()
             BejeweledDlg = new CBejeweledDlg(ui->lineEdit->text());
             BejeweledDlg->setAutoFillBackground(true);
             QPalette palette;
-            QPixmap pixmap("..\\BSMZproject\\sucai\\登录界面2.bmp");
+            QPixmap pixmap("..\\BSMZproject\\sucai\\登录界面2.jpg");
             palette.setBrush(QPalette::Window, QBrush(pixmap));
             BejeweledDlg->setPalette(palette);
             this->close();
